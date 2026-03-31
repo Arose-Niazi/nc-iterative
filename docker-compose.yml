@@ -1,0 +1,15 @@
+name: nc-iterative
+
+services:
+  web:
+    build: .
+    container_name: nc-iterative-web
+    restart: unless-stopped
+    networks:
+      - proxy
+    expose:
+      - "80"
+
+networks:
+  proxy:
+    external: true

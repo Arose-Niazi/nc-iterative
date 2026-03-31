@@ -1,0 +1,16 @@
+{
+    "name": "Iterative Methods Calculator",
+    "short_name": "NC Iterative",
+    "description": "Solve systems of linear equations using Jacobi and Gauss-Seidel iterative methods with step-by-step solutions",
+    "start_url": "/iterative/",
+    "display": "standalone",
+    "background_color": "#f8fafc",
+    "theme_color": "#4361ee",
+    "icons": [
+        {
+            "src": "favicon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml"
+        }
+    ]
+}
